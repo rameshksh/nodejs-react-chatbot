@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "Nodejs Web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-server": "node ./dist/start.js",
+    "build-server": "tsc --sourcemap --outDir ./dist/ --rootDir ./ --module commonjs ./server/boot.ts --experimentalDecorators && node ./dist/server/boot.js "
+  },
+  "devDependencies": {
+    "@types/node": "^10.14.6",
+    "@types/request": "^2.48.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "require": "^2.4.20",
+    "swig": "^1.4.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.282.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "requirejs": "^2.3.6"
+  }
+}

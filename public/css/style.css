@@ -1,0 +1,20 @@
+.container {
+    min-height: 400px;
+    background-color: #d3d3d3;
+    background: url("/images/Weather-Background.jpg") no-repeat;
+}
+
+.summary {
+    height: 100px;
+    color: yellow;
+    padding-top: 10px;
+}
+
+.summary p {
+    color: cyan;
+}
+
+table td {
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "declaration": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,     
+      "types": ["reflect-metadata", "express", "node"],      
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "target": "es5"
+    },   
+    "exclude": [
+      "node_modules"
+    ],
+    "compileOnSave": false,
+    "atom": {
+      "rewriteTsconfig": false
+    }
+  }
